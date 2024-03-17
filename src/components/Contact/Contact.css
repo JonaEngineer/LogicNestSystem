@@ -1,0 +1,118 @@
+/********************************* Rubik Wet Paint ******************************/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+/*
+
+font-family: 'Rubik Wet Paint', system-ui;
+
+/************************************ Readex Pro ********************************/
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&family=Rubik+Wet+Paint&display=swap');
+/*
+
+font-family: 'Readex Pro', sans-serif;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* website colors */
+:root {
+    --whiteColor: #ffffff;
+    --lightPurpleColor: #EB00FF;
+    --dullPurpleColor: #CC00FF;
+    --yellowColor: #FFD600;
+    --skyBlueColor: #00E0FF;
+    --blackColor: #000000;
+    --subtitleColor: #AEAEAE;
+    --redColor: #FF0000;
+    --greenColor: #00FF29;
+    --greenLight: #00FFD1;
+    --featureContainer: #000113;
+}
+
+/********************************************************************************/
+/*********************************** CONTACT ************************************/
+/********************************************************************************/
+
+.pie-pagina {
+    width: 100%;
+    background-color: #0a141d;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: auto;
+    height: auto;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    font-family: 'Rubik Wet Paint', system-ui;
+    color: var(--greenLight);
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    font-size: 14px;
+    font-family: 'Readex Pro', sans-serif;
+    color: var(--subtitleColor);
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: aqua;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 23px 10px;
+    text-align: center;
+    color: var(--yellowColor);
+}
+
+.pie-pagina .grupo-2 small {
+    font-family: 'Rubik Wet Paint', system-ui;
+    font-size: 16px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}

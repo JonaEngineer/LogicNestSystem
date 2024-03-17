@@ -1,0 +1,422 @@
+/********************************* Rubik Wet Paint ******************************/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+/*
+
+font-family: 'Rubik Wet Paint', system-ui;
+
+/************************************ Readex Pro ********************************/
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&family=Rubik+Wet+Paint&display=swap');
+/*
+
+font-family: 'Readex Pro', sans-serif;
+
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* website colors */
+:root{
+  --whiteColor: #ffffff;
+  --lightPurpleColor: #EB00FF;
+  --dullPurpleColor: #CC00FF;
+  --yellowColor: #FFD600;
+  --skyBlueColor: #00E0FF;
+  --blackColor: #000000;
+  --subtitleColor: #AEAEAE;
+  --redColor: #FF0000;
+  --greenColor: #00FF29;
+  --greenLight: #00FFD1;
+  --featureContainer: #000113;
+}
+
+/* body */
+.body-3frame{
+  width: auto;
+  height: auto;
+  background-color: var(--blackColor);
+}
+
+/********************************************************************************/
+/************************************* SHOP *************************************/
+/********************************************************************************/
+.container-top-shop-principal{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+/* p */
+.p-shop{
+  width: auto;
+  height: auto;
+}
+
+/* span */
+.title1-p-shop-principal{
+  font-size: 72px;
+  font-family: 'Rubik Wet Paint', system-ui;
+  color: var(--dullPurpleColor);
+}
+
+.title2-p-shop-principal{
+  font-size: 72px;
+  font-family: 'Rubik Wet Paint', system-ui;
+  color: var(--whiteColor);
+}
+
+.title3-p-shop-principal{
+  font-size: 72px;
+  font-family: 'Rubik Wet Paint', system-ui;
+  color: var(--yellowColor);
+}
+
+.title4-p-shop-principal{
+  font-size: 72px;
+  font-family: 'Rubik Wet Paint', system-ui;
+  color: var(--skyBlueColor);
+}
+
+.title5-p-shop-principal{
+  font-size: 72px;
+  font-family: 'Rubik Wet Paint', system-ui;
+  color: var(--yellowColor);
+}
+
+.title6-p-shop-principal{
+  font-size: 72px;
+  font-family: 'Rubik Wet Paint', system-ui;
+  color: var(--redColor);
+}
+
+/* btns container */
+.btns-container-shop-principal{
+  margin-top: 1.5rem;
+  text-align: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid var(--whiteColor);
+  border-radius: 50px;
+}
+
+/* btn */
+.btn-shop-principal{
+  background-color: transparent;
+  color: var(--whiteColor);
+  padding: 14px 18px;
+  border: none;
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.btn-shop-principal:focus{
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: var(--lightPurpleColor);
+}
+
+/* product container */
+.products-container-shop-principal{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2;
+}
+
+/* feature container */
+.feature-products-container-shop-principal{
+  width: auto;
+  height: auto;
+  position: absolute; /* now */
+  left: 21rem;
+  margin-top: 4.1rem;
+}
+
+.pt2-shop{
+  margin-top: -1rem;
+}
+
+/* span */
+.title1-feature-container-shop-principal{
+  font-size: 68px;
+  color: var(--skyBlueColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+}
+
+.title2-feature-container-shop-principal{
+  font-size: 52px;
+  color: var(--whiteColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+}
+
+/* performance */
+.performance-shop-principal{
+  text-align: center;
+  width: 250px;
+  height: auto;
+  background-color: transparent;
+  border: 3px solid var(--skyBlueColor);
+  border-radius: 50px;
+  color: var(--skyBlueColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 13px;
+  margin-top: 1px;
+}
+
+/* ul container */
+.ul-container-shop-principal{
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+}
+
+/* li */
+.offer-ul-container-shop-principal{
+  color: var(--whiteColor);
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  margin: 6px auto;
+}
+
+/* li span */
+.offer-ul-container-shop-principal .span-li-shop-principal{
+  margin: 0 0 0 5px;
+}
+
+/* icon */
+.icon{
+  color: var(--greenColor);
+}
+
+
+/* from */
+.from{
+  margin-top: 8px;
+  color: var(--whiteColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* cost and stock */
+.cost-shop-principal{
+  color: var(--yellowColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+/* stock */
+.stock-shop-principal{
+  color: var(--greenColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* btns container */
+.buy-btns-container-shop-principal{
+  margin-top: 6px;
+  width: auto;
+  height: auto;
+}
+
+/* btns */
+.add-btn-container-shop-principal{
+  padding: 8px 16px;
+  margin-right: 8px;
+  background-color: transparent;
+  border: 3px solid var(--skyBlueColor);
+  border-radius: 50px;
+  color: var(--whiteColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+}
+
+.buy-btn-container-shop-principal{
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 3px solid var(--skyBlueColor);
+  border-radius: 50px;
+  color: var(--whiteColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+}
+
+/* margin container */
+.margin-container-shop-principal{
+  margin-top: 3rem;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* img container */
+.img-container-shop-principal{
+  width: 50%;
+  height: auto;
+}
+
+/* pc1 img */
+.pc1-shop-principal{
+  width: 100%;
+  height: auto;
+}
+
+/* characteristic container */
+.characteristics-container-shop-principal{
+  width: 380px;
+  height: 458px;
+  border-radius: 0 25px 25px 0;
+  display: flex;
+  align-items: center;
+  background-color: var(--featureContainer);
+}
+
+/* ul */
+.characteristics-shop-principal{
+  width: auto;
+  height: auto;
+  padding: 0 0 0 2.1rem;
+}
+
+/* li */
+.li-characteristics-shop-principal{
+  font-size: 18px;
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  margin: 6px auto;
+  list-style: none;
+}
+
+/* span */
+.li-characteristics-shop-principal .span-li-characteristic-shop-principal{
+  color: var(--whiteColor);
+  margin: 0 0 0 5px;
+}
+
+/* span 2 */
+.namesProduct-shop{
+  color: var(--subtitleColor);
+  font-size: 14px;
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 100;
+}
+
+/* Second Pc Style */
+.secondPc-feature-container-shop-principal{
+  font-size: 68px;
+  color: var(--greenLight);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+}
+
+/* Optimal change color */
+.secondPc-performance-shop-principal{
+  text-align: center;
+  width: 250px;
+  height: auto;
+  background-color: transparent;
+  border: 3px solid var(--greenLight);
+  border-radius: 50px;
+  color: var(--greenLight);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 13px;
+  margin-top: 1px;
+}
+
+/* change style add caarrito */
+.secondPc-add-btn-container-shop-principal{
+  padding: 8px 16px;
+  margin-right: 8px;
+  background-color: transparent;
+  border: 3px solid var(--greenLight);
+  border-radius: 50px;
+  color: var(--whiteColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+}
+
+/* change style buy caarrito */
+.secondPc-buy-btn-container-shop-principal{
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 3px solid var(--greenLight);
+  border-radius: 50px;
+  color: var(--whiteColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+}
+
+/* thirdPc change style */
+.thirdPc-feature-container-shop-principal{
+  font-size: 68px;
+  color: var(--lightPurpleColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+}
+
+/* change optimal style */
+.thirdPc-performance-shop-principal{
+  text-align: center;
+  width: 250px;
+  height: auto;
+  background-color: transparent;
+  border: 3px solid var(--lightPurpleColor);
+  border-radius: 50px;
+  color: var(--lightPurpleColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 13px;
+  margin-top: 1px;
+}
+
+/* add carrito change style */
+.thirdPc-add-btn-container-shop-principal{
+  padding: 8px 16px;
+  margin-right: 8px;
+  background-color: transparent;
+  border: 3px solid var(--lightPurpleColor);
+  border-radius: 50px;
+  color: var(--whiteColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+}
+
+/* buy carrito change style */
+.thirdPc-buy-btn-container-shop-principal{
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 3px solid var(--lightPurpleColor);
+  border-radius: 50px;
+  color: var(--whiteColor);
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 600;
+}

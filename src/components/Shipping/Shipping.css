@@ -1,0 +1,132 @@
+/********************************* Rubik Wet Paint ******************************/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+/*
+
+font-family: 'Rubik Wet Paint', system-ui;
+
+/************************************ Readex Pro ********************************/
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;700&family=Rubik+Wet+Paint&display=swap');
+/*
+
+font-family: 'Readex Pro', sans-serif;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* website colors */
+:root {
+    --whiteColor: #ffffff;
+    --lightPurpleColor: #EB00FF;
+    --dullPurpleColor: #CC00FF;
+    --yellowColor: #FFD600;
+    --skyBlueColor: #00E0FF;
+    --blackColor: #000000;
+    --subtitleColor: #AEAEAE;
+    --redColor: #FF0000;
+    --greenColor: #00FF29;
+    --greenLight: #00FFD1;
+    --featureContainer: #000113;
+}
+
+.father-container-shipping-principal {
+    width: 100%;
+    height: 100vh;
+    /* here */
+    background-color: var(--blackColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/********************************************************************************/
+/********************************** SHIPPING ************************************/
+/********************************************************************************/
+
+.son-container-shipping-principal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* here */
+    align-items: center;
+    padding: 0 8rem;
+}
+
+/* imgs container */
+.imgs-container-shipping-principal {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* simple container */
+.son-img-container-shipping-principal {
+    width: auto;
+    height: auto;
+    margin-right: 1.5rem;
+}
+
+/* img */
+.img-shipping-principal {
+    width: auto;
+    height: auto;
+}
+
+/* second & third imgs */
+.img2-shipping-principal {
+    width: auto;
+    height: auto;
+}
+
+.img3-shipping-principal {
+    margin-top: 14px;
+    width: auto;
+    height: auto;
+}
+
+/* info container */
+.info-container-shipping-principal{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+/* title span */
+.title-shipping-principal{
+    font-size: 72px;
+    color: var(--whiteColor);
+    font-family: 'Rubik Wet Paint', system-ui;
+    margin-right: 1rem;
+}
+
+.title2-shipping-principal{
+    font-size: 72px;
+    color: var(--lightPurpleColor);
+    font-family: 'Rubik Wet Paint', system-ui;
+}
+
+/* subtitle */
+.subtitle-shipping-principal{
+    font-size: 38px;
+    color: var(--whiteColor);
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 100;
+    margin: 3px 0 8px 0;
+}
+
+/* description */
+.description-shipping-principal{
+    font-size: 18px;
+    color: var(--subtitleColor);
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 100;
+}
